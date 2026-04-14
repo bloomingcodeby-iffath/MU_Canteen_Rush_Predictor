@@ -34,33 +34,39 @@ Used `.head()`, `.info()`, `.isnull().sum()`, and `.unique()` to understand data
 
 #### Rush Level vs Students — Bar Charts & Time vs Students-Scatter
 - **Bar Plot:** Compared average student counts across Low, Medium, and High rush levels using color-coded bars (yellow → orange → red).
-<img width="1190" height="530" alt="image" src="https://github.com/user-attachments/assets/37cb267a-8e8f-4217-acd5-98a3160d8ee9" />
+<img width="1189" height="530" alt="image" src="https://github.com/user-attachments/assets/8df02cfb-3678-49ab-959e-03e219fa92f1" />
+
 
 
 #### Weather & Lunch Time Analysis
 - **Box Plot:** Displayed student count spread per weather condition to detect variability and outliers.
 - **Average Bar Plot:** Compared mean student footfall across weather types using `coolwarm` palette.
 - **Lunch Time Bar & Pie:** Showed how designated lunch periods drive significantly higher footfall.
-<img width="1489" height="530" alt="image" src="https://github.com/user-attachments/assets/75f6213f-aef5-45bf-93b2-a7e9cfab966e" />
+<img width="1489" height="530" alt="image" src="https://github.com/user-attachments/assets/5bb31550-a154-4c8b-9770-4c94eed30fee" />
+
 
 
 #### Time vs Rush Level — Stacked Bar & Heatmap
 - **Stacked Bar Chart:** Showed total students per time slot broken down by rush level using `viridis` colormap.
 - **Heatmap:** Pivot table of Time × Rush Level with annotated student counts using `YlOrRd` color scale.
-<img width="1174" height="490" alt="image" src="https://github.com/user-attachments/assets/9532917a-e88f-45c9-be76-c97fb9d8a393" />
+<img width="1174" height="490" alt="image" src="https://github.com/user-attachments/assets/453a4c2a-c17f-45e1-98f2-b2a608c2c578" />
+
+
 
 
 
 #### Pairplot by Rush Level
 Used `sns.pairplot(hue='Rush_Level')` to reveal multivariate relationships between all numeric features, color-coded by rush category.
-<img width="853" height="741" alt="image" src="https://github.com/user-attachments/assets/7ab2dad3-31a9-49e8-8163-929b51839190" />
+<img width="853" height="741" alt="image" src="https://github.com/user-attachments/assets/debcb125-8dca-4b5b-8a1b-3805317da17e" />
+
 
 
 
 
 #### Feature Correlation Heatmap
 Encoded `Rush_Level` numerically (`Low=0`, `Medium=1`, `High=2`) and computed a correlation matrix for `Time`, `Lunch_Time`, `Students`, and `Rush_Level_Encoded`.
-<img width="616" height="504" alt="image" src="https://github.com/user-attachments/assets/5b632f16-18eb-4eea-bb7c-c212badd2285" />
+<img width="627" height="504" alt="image" src="https://github.com/user-attachments/assets/cb18a25c-d2ee-4751-89e2-cd8b9daf7a52" />
+
 
 
 
@@ -114,17 +120,20 @@ Random Forest used **100 decision trees** to capture non-linear patterns in stud
 
 #### Actual vs Predicted — Scatter Plot
 Both models plotted against the ideal diagonal line (`y = x`) to visually assess prediction accuracy.
-<img width="841" height="624" alt="image" src="https://github.com/user-attachments/assets/3dded648-a1e0-421f-9823-407707d8d5fa" />
+<img width="841" height="624" alt="image" src="https://github.com/user-attachments/assets/26ac5710-ff70-418e-8e48-82fc4a4f43ae" />
+
 
 
 #### Error Distribution — Histogram
 Residual distributions for both models overlaid to compare spread and bias in prediction errors.
-<img width="841" height="470" alt="image" src="https://github.com/user-attachments/assets/c62f34cd-7229-4207-a20f-6a5c679d6742" />
+<img width="833" height="470" alt="image" src="https://github.com/user-attachments/assets/8e8dee69-1bea-4589-b0d7-82de6b8e6dd0" />
+
 
 
 #### Residual Plots
 Residuals plotted against predicted values for both models to check for systematic bias or heteroscedasticity.
-<img width="1189" height="490" alt="image" src="https://github.com/user-attachments/assets/4d2cd9c6-d4b2-4aab-a6c6-11356b9e6f68" />
+<img width="1189" height="490" alt="image" src="https://github.com/user-attachments/assets/9648d0ea-47aa-437a-91ef-4de37bf4c917" />
+
 
 
 ---
@@ -137,7 +146,8 @@ Residuals plotted against predicted values for both models to check for systemat
 | MSE | 143.462186 | 148.082214|
 | R² Score | 0.207696| 0.182181 |
 
-<img width="695" height="451" alt="image" src="https://github.com/user-attachments/assets/f503fb92-54f6-4cec-85f9-6fb408d394c9" />
+<img width="695" height="451" alt="image" src="https://github.com/user-attachments/assets/7c665999-9c6e-4f19-b266-ad5994c91509" />
+
 
 
 **Random Forest** consistently outperformed Linear Regression, particularly in capturing non-linear time and weather interactions.
@@ -159,7 +169,8 @@ def get_rush_level(students):
 ```
 
 Applied to Random Forest predictions (best model) to produce final interpretable output.
-<img width="841" height="470" alt="image" src="https://github.com/user-attachments/assets/76c47223-0fbb-4cb9-b3a5-f167c70a2935" />
+<img width="841" height="470" alt="image" src="https://github.com/user-attachments/assets/6133fdc9-7350-4d16-9a5f-c344a50f87b2" />
+
 
 
 
