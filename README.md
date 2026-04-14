@@ -133,9 +133,9 @@ Residuals plotted against predicted values for both models to check for systemat
 
 | Metric | Linear Regression | Random Forest |
 |---|---|---|
-| MAE | 13.911363 | 5.009341 |
-| MSE | 292.245536 |41.552838|
-| R² Score | 0.525066| 0.932472 |
+| MAE | 10.291394 | 9.475404 |
+| MSE | 143.462186 | 148.082214|
+| R² Score | 0.207696| 0.182181 |
 
 <img width="695" height="451" alt="image" src="https://github.com/user-attachments/assets/f503fb92-54f6-4cec-85f9-6fb408d394c9" />
 
