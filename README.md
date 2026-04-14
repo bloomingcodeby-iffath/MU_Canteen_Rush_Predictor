@@ -47,17 +47,22 @@ Used `.head()`, `.info()`, `.isnull().sum()`, and `.unique()` to understand data
 #### Time vs Rush Level — Stacked Bar & Heatmap
 - **Stacked Bar Chart:** Showed total students per time slot broken down by rush level using `viridis` colormap.
 - **Heatmap:** Pivot table of Time × Rush Level with annotated student counts using `YlOrRd` color scale.
-<img width="1174" height="490" alt="download" src="https://github.com/user-attachments/assets/631d5ef0-f163-47f8-b965-4e2572e19384" />
+<img width="1174" height="490" alt="image" src="https://github.com/user-attachments/assets/9532917a-e88f-45c9-be76-c97fb9d8a393" />
+
 
 
 #### Pairplot by Rush Level
 Used `sns.pairplot(hue='Rush_Level')` to reveal multivariate relationships between all numeric features, color-coded by rush category.
-<img width="853" height="741" alt="download" src="https://github.com/user-attachments/assets/135c1962-6b00-4f32-ac1e-1438d1b71b92" />
+<img width="853" height="741" alt="image" src="https://github.com/user-attachments/assets/7ab2dad3-31a9-49e8-8163-929b51839190" />
+
+
 
 
 #### Feature Correlation Heatmap
 Encoded `Rush_Level` numerically (`Low=0`, `Medium=1`, `High=2`) and computed a correlation matrix for `Time`, `Lunch_Time`, `Students`, and `Rush_Level_Encoded`.
-<img width="627" height="504" alt="download" src="https://github.com/user-attachments/assets/e00d1437-5a1d-420e-8f9e-bbb81e11ec24" />
+<img width="616" height="504" alt="image" src="https://github.com/user-attachments/assets/5b632f16-18eb-4eea-bb7c-c212badd2285" />
+
+
 
 
 ---
@@ -109,15 +114,18 @@ Random Forest used **100 decision trees** to capture non-linear patterns in stud
 
 #### Actual vs Predicted — Scatter Plot
 Both models plotted against the ideal diagonal line (`y = x`) to visually assess prediction accuracy.
-<img width="841" height="624" alt="download" src="https://github.com/user-attachments/assets/fd72ff81-e69e-4bbe-bd6e-1a52513f665a" />
+<img width="841" height="624" alt="image" src="https://github.com/user-attachments/assets/3dded648-a1e0-421f-9823-407707d8d5fa" />
+
 
 #### Error Distribution — Histogram
 Residual distributions for both models overlaid to compare spread and bias in prediction errors.
-<img width="833" height="470" alt="download" src="https://github.com/user-attachments/assets/76fc7ac7-71f8-48b4-b720-ba05aa99e669" />
+<img width="841" height="470" alt="image" src="https://github.com/user-attachments/assets/c62f34cd-7229-4207-a20f-6a5c679d6742" />
+
 
 #### Residual Plots
 Residuals plotted against predicted values for both models to check for systematic bias or heteroscedasticity.
-<img width="1189" height="490" alt="download" src="https://github.com/user-attachments/assets/c65dc40b-03db-4e1b-82d9-a60401dd712a" />
+<img width="1189" height="490" alt="image" src="https://github.com/user-attachments/assets/4d2cd9c6-d4b2-4aab-a6c6-11356b9e6f68" />
+
 
 ---
 
@@ -129,7 +137,8 @@ Residuals plotted against predicted values for both models to check for systemat
 | MSE | 292.245536 |41.552838|
 | R² Score | 0.525066| 0.932472 |
 
-<img width="695" height="451" alt="download" src="https://github.com/user-attachments/assets/093e15c9-9155-4da8-bc8a-2720ccd8bd65" />
+<img width="695" height="451" alt="image" src="https://github.com/user-attachments/assets/f503fb92-54f6-4cec-85f9-6fb408d394c9" />
+
 
 **Random Forest** consistently outperformed Linear Regression, particularly in capturing non-linear time and weather interactions.
 
@@ -150,7 +159,8 @@ def get_rush_level(students):
 ```
 
 Applied to Random Forest predictions (best model) to produce final interpretable output.
-<img width="841" height="470" alt="download" src="https://github.com/user-attachments/assets/dca0dc4b-ea55-429f-acc5-c0a2d6e529d0" />
+<img width="841" height="470" alt="image" src="https://github.com/user-attachments/assets/76c47223-0fbb-4cb9-b3a5-f167c70a2935" />
+
 
 
 ---
