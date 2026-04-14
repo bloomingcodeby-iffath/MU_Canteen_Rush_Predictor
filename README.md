@@ -14,7 +14,7 @@ The dataset was explored visually and statistically to understand distribution p
 
 ##  Dataset
 
-- **Source:** [MU Canteen Rush Data (GitHub)](https://raw.githubusercontent.com/bloomingcodeby-iffath/MU_Canteen_Rush_Predictor/refs/heads/main/canteen_rush_data.csv)
+- **Source:** [MU Canteen Rush Data (GitHub)]([https://raw.githubusercontent.com/bloomingcodeby-iffath/MU_Canteen_Rush_Predictor/refs/heads/main/canteen_rush_data.csv](https://raw.githubusercontent.com/bloomingcodeby-iffath/MU_Canteen_Rush_Predictor/refs/heads/main/canteen_rush_data.csv))
 - **Key Columns:**
   - `Time` — Time slot of canteen visit
   - `Day` — Day of the week
