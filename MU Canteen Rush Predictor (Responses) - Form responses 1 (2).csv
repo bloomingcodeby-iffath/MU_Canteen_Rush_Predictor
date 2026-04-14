@@ -1,0 +1,110 @@
+Column 1,"Enter Your Name
+",Department ,Batch (For Students),Id Number(eg: 232-115-000) - (For Students),Which day of the week do you usually visit the canteen?  ,What time do you usually visit the canteen?  ,  Is this visit usually during lunch time?  ,What is the usual weather when you visit the canteen?  ,How many students are usually present in the canteen at this time?  ,Rush Level 
+,Iffath Sanjida,CSE,59,232-115-222,Mon,9,0,Sunny,20,Medium
+,Fahiyan Shah,CSE,60,241-115-030,Mon,10,0,Sunny,25,Medium
+,Abid Shahriar,CSE,59,232-115-022,Mon,11,1,Sunny,40,High
+,Abu Sayeed Mahi,CSE,63,252-115-078,Mon,12,1,Sunny,70,High
+,Fatema Begum,CSE,59,232-115-003,Mon,13,1,Sunny,85,High
+,Chondrima Rahman ,CSE,59,232-115-308,Mon,14,0,Sunny,50,High
+,Anindita Kar ,Economics ,23rd,232-111-005,Mon,15,0,Sunny,45,High
+,Tahia ,CSE ,59,232-115-213,Mon,16,0,Sunny,30,Medium
+,Asma Akther mim ,Computer science and engineering ,CSE 61st ,242-115-059,Mon,17,0,Sunny,20,Medium
+,Najib Ahmed ,CSE,59th,231-115-351,Tue,9,0,Rainy,15,Low
+,Swapnil ,CSE,,,Tue,10,0,Rainy,22,Medium
+,Oziha Khan ,CSE,63,252-115-115,Tue,11,1,Rainy,35,Medium
+,Jannat Akther Chaity ,CSE,59th,232-115-215,Tue,12,1,Rainy,60,High
+,Syed Rashid Asif,BBA,59th,232-116-033,Tue,13,1,Rainy,75,High
+,Mahmud,CSE,57,222-115-191,Tue,14,0,Rainy,50,High
+,Sadia,CSE,59,232-115-219,Tue,15,0,Rainy,40,High
+,Saima Sultana ,CSE,59,232-115-231,Tue,16,0,Rainy,25,Medium
+,Samiya Rahman ,CSE,59,232-115-023,Tue,17,0,Rainy,18,Low
+,MD. Nazmul Hasan,Cse,59,232-115-228,Wed,9,0,Sunny,25,Medium
+,Masuma,CSE,64,,Wed,10,0,Sunny,30,Medium
+,Sakib Mustafa ,CSE,59,232-115-234,Wed,11,1,Sunny,55,High
+,Joy Das,CSE,59,232-115-208,Wed,12,1,Sunny,80,High
+,Mahmuda Akther Fariha ,CSE,59,231-115-062,Wed,13,1,Sunny,85,High
+,Sanjida Jahan,CSE,59th,232-115-341,Wed,14,0,Sunny,60,High
+,Fariba Diya Ahmed ,CSE,59,232-115-229,Wed,15,0,Sunny,50,High
+,Fahija rahman ome,Cse,59,232-115-347,Wed,16,0,Sunny,35,Medium
+,Fariba Diya Ahmed ,CSE,59,232-115-229,Wed,17,0,Sunny,25,Medium
+,Fda,Cse,59,229,Thu,9,0,Cloudy,18,Low
+,Fda,Cse,59,229,Thu,10,0,Cloudy,22,Medium
+,Fda,Cse,59,229,Thu,11,1,Cloudy,40,High
+,Fda,Cse,59,229,Thu,12,1,Cloudy,65,High
+,Fda,Cse,59,229,Thu,13,1,Cloudy,78,High
+,Fda,Cse,59,229,Thu,14,0,Cloudy,55,High
+,Nadia Abu,CSE,59th,232-115-218,Thu,15,0,Cloudy,42,High
+,Fda,Cse,59,229,Thu,16,0,Cloudy,28,Medium
+,Fda,Cse,59,229,Thu,17,0,Cloudy,18,Low
+,Fda,Cse,59,229,Sun,9,0,Rainy,12,Low
+,Rabeya Fatema Shirin ,CSE,59,232-115-232,Sun,10,0,Rainy,18,Low
+,Prianka Chowdhury ,CSE,59,232-115-337,Sun,11,1,Rainy,38,Medium
+,Zihad ,CSE,60,241-115-052,Sun,12,1,Rainy,65,High
+,Diya Sinha ,CSE ,59,232-115-233,Sun,13,1,Rainy,80,High
+,Banidipa,CSE,,,Sun,14,0,Rainy,55,High
+,Tasfiya,CSE,64,,Sun,15,0,Rainy,42,High
+,Seemly,CSE,60,,Sun,16,0,Rainy,28,Medium
+,Tahrin Rahman Ruba,CSE,61,,Sun,17,0,Rainy,18,Low
+,Jarin Salvi,CSE,59,,Mon,9,0,Sunny,22,Medium
+,Dia Mozumdar ,CSE,59,,Mon,10,0,Sunny,28,Medium
+,Sadia Ahmed Chowdhury ,CSE,59,232-115-219,Mon,11,1,Sunny,50,High
+,Jannatul Ferdous Tayiba,SWE,,,Mon,12,1,Sunny,75,High
+,Nure jannat,English ,56,241-116-333,Mon,13,1,Sunny,90,High
+,Abhishek Chowdhury ,Software Engineering ,2nd,213-134-013,Mon,14,0,Sunny,60,High
+,Tarek Ahmed Oyan ,CSE,61,242-115-248,Mon,15,0,Sunny,45,High
+,Tahsin Ahmed ,CSE,58,231-115-079,Mon,16,0,Sunny,35,Medium
+,Athia Jannat Sami ,CSE,59,232-115-001,Mon,17,0,Sunny,25,Medium
+,Sandipon Bhattacharjee ,Dept. of Economics,27th,252-111-003,Tue,9,0,Cloudy,18,Low
+,Aysha Akther Tanni ,CSE,61,242-115-194 ,Tue,10,0,Cloudy,24,Medium
+,Wasima Sultana,CSE,59,232-115-230,Tue,11,1,Cloudy,45,High
+,Athia Jannat Sami,CSE,59,232-115-001,Tue,12,1,Cloudy,70,High
+,Fatema Begum,CSE,59,232-115-003,Tue,13,1,Cloudy,85,High
+,Mehedi Hasan,CSE,59,232-115-005,Tue,14,0,Cloudy,55,High
+,Md Mehrab Hasan Akhanjee,CSE,59,232-115-006,Tue,15,0,Cloudy,50,High
+,Navid Zaman Khan,CSE,59,232-115-008,Tue,16,0,Cloudy,30,Medium
+,Rita Begum,CSE,59,232-115-010,Tue,17,0,Cloudy,20,Medium
+,Sadman Sakib Khan,CSE,59,232-115-011,Wed,9,0,Sunny,15,Low
+,Jibran Masum Didar,CSE,59,232-115-013,Wed,10,0,Sunny,28,Medium
+,Md. Masudul Hasan Akib,CSE,59,232-115-015,Wed,11,1,Sunny,55,High
+,Najia Akter Lubna,CSE,59,232-115-016,Wed,12,1,Sunny,78,High
+,Halima Jahan Chowdhury,CSE,59,232-115-017,Wed,13,1,Sunny,90,High
+,Mehedi Hasan Emon,CSE,59,232-115-018,Wed,14,0,Sunny,60,High
+,Fatema Jannat Ema,CSE,59,232-115-019,Wed,15,0,Sunny,50,High
+,Udoy Hossain Tahim,CSE,59,232-115-020,Wed,16,0,Sunny,40,High
+,Abid Shahriar,CSE,59,232-115-022,Wed,17,0,Sunny,32,Medium
+,Samiya Rahman Bushra,CSE,59,232-115-025,Thu,9,0,Windy,22,Medium
+,Fahima Akter,CSE,59,232-115-028,Thu,10,0,Windy,35,Medium
+,Sukta rani chandra,CSE,59,232-115-030,Thu,11,1,Windy,60,High
+,Nadia Muntaha,CSE,59,232-115-031,Thu,12,1,Windy,85,High
+,Shamsun Naher,CSE,59,232-115-032,Thu,13,1,Windy,95,High
+,Arshika Noor,CSE,59,232-115-033,Thu,14,0,Windy,70,High
+,Anij Fatema Lisa,CSE,59,232-115-034,Thu,15,0,Windy,55,High
+,Halima Saida Sania,CSE,59,232-115-205,Thu,16,0,Windy,40,High
+,Siddhartha Singha,CSE,59,232-115-206,Thu,17,0,Windy,30,Medium
+,Joy Das,CSE,59,232-115-208,Sun,9,0,Rainy,12,Low
+,Jannat Akther Chaity,CSE,59,232-115-215,Sun,10,0,Rainy,18,Low
+,Nadia Abu,CSE,59,232-115-218,Sun,11,1,Rainy,38,Medium
+,Hasib Al Hossain,CSE,59,232-115-221,Sun,12,1,Rainy,65,High
+,Mohiuddin Hasan  Tonmoy,CSE,59,232-115-225,Sun,13,1,Rainy,80,High
+,Ariful Haque,CSE,59,232-115-226,Sun,14,0,Rainy,55,High
+,Muaj Maruf,CSE,59,232-115-227,Sun,15,0,Rainy,42,High
+,Saima Sultana,CSE,59,232-115-231,Sun,16,0,Rainy,28,Medium
+,Shahedul Islam Bijoy,CSE,59,232-115-239,Sun,17,0,Rainy,18,Low
+,Rauha,CSE,59,232-115-251,Mon,9,0,Sunny,25,Medium
+,Samiha Rahman,CSE,59,232-115-252,Mon,10,0,Sunny,30,Medium
+,Sunjida Siddiqua,CSE,59,232-115-255,Mon,11,1,Sunny,60,High
+,Samia Sultana,CSE,59,232-115-259,Mon,12,1,Sunny,85,High
+,Ahsan Ahmed Saif,CSE,59,232-115-262,Mon,13,1,Sunny,95,High
+,Farhana Nowshin,CSE,59,232-115-322,Mon,14,0,Sunny,70,High
+,Habiba Rahman Tahsin,CSE,59,232-115-348,Mon,15,0,Sunny,55,High
+,Kadiza Tahera Tanas ,LAW,57,252–113–026,Mon,16,0,Sunny,40,High
+,Riaj Ahmed Ridoy,LAW,58,253-113-020,Mon,17,0,Sunny,30,Medium
+,Kazi Mst. Afiya Abida Summaiya ,English,60,253-114-007,Tue,9,0,Cloudy,18,Low
+, Maria Tasnim,SWE,10,253-134-011,Tue,10,0,Cloudy,24,Medium
+,Samia Jannat Sayma ,LAW,58,253-113-012,Tue,11,1,Cloudy,45,High
+,Sultan al Islam ,CSE,57,222-115-181,Tue,12,1,Cloudy,70,High
+,Abida Jin-nurine Jemi,CSE,57, 222-115-031,Tue,13,1,Cloudy,85,High
+,Papia Akther Nipa ,LAW,54,241-113-011,Tue,14,0,Cloudy,55,High
+,Naveed hussain ,LAW,58,253-113-047,Tue,15,0,Cloudy,50,High
+, Samia Sabrin ,LAW,58,253- 113- 006,Tue,16,0,Cloudy,30,Medium
+,Muhammad Tahsin khan ,CSE,62,251-115-178,Tue,17,0,Cloudy,20,Medium
