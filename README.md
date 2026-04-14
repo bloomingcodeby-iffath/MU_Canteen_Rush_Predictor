@@ -32,19 +32,16 @@ The dataset was explored visually and statistically to understand distribution p
 #### Initial Data Inspection
 Used `.head()`, `.info()`, `.isnull().sum()`, and `.unique()` to understand dataset structure, detect missing values, and examine categorical feature distributions across `Day` and `Weather`.
 
-#### Rush Level vs Students — Bar & Pie Charts
+#### Rush Level vs Students — Bar Charts & Time vs Students-Scatter
 - **Bar Plot:** Compared average student counts across Low, Medium, and High rush levels using color-coded bars (yellow → orange → red).
-- **Pie Chart:** Showed proportional distribution of each rush level across all records.
-<img width="1189" height="990" alt="download" src="https://github.com/user-attachments/assets/e66f7d7b-7fe6-416d-8fba-8da25c53213f" />
-
+<img width="1190" height="530" alt="image" src="https://github.com/user-attachments/assets/37cb267a-8e8f-4217-acd5-98a3160d8ee9" />
 
 
 #### Weather & Lunch Time Analysis
 - **Box Plot:** Displayed student count spread per weather condition to detect variability and outliers.
 - **Average Bar Plot:** Compared mean student footfall across weather types using `coolwarm` palette.
 - **Lunch Time Bar & Pie:** Showed how designated lunch periods drive significantly higher footfall.
-<img width="1490" height="989" alt="download" src="https://github.com/user-attachments/assets/0ebcd317-556a-4e62-9319-cd6ef6f71b98" />
-
+<img width="1489" height="530" alt="image" src="https://github.com/user-attachments/assets/75f6213f-aef5-45bf-93b2-a7e9cfab966e" />
 
 
 #### Time vs Rush Level — Stacked Bar & Heatmap
